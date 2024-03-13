@@ -5,7 +5,22 @@
 }
 
 .principal-head-info{
+    margin: 1.2%;
     font-size: 1.5rem;
     color: 1E1E1E;
-    font-family: Noto Serif Tamil Slanted;
+    font-family: "Noto Serif Tamil", serif;}
+
+.nav-bar{
+    background-color: whitesmoke;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-family: "Noto Serif Tamil", serif;
+    font-weight: bold;
 }
+
+.nav-bar a{
+    margin: 1%;
+}
+
