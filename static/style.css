@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 .principal-head{
     display: flex;
     align-items: center;
@@ -11,16 +14,25 @@
     font-family: "Noto Serif Tamil", serif;}
 
 .nav-bar{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
     background-color: whitesmoke;
     font-size: 1.3rem;
-    display: flex;
-    justify-content: space-around;
+    
+    
     color: black;
     font-family: "Noto Serif Tamil", serif;
     font-weight: bold;
+
 }
 
 .nav-bar a{
-    margin: 1%;
+    text-decoration: none;
 }
 
+.carouselExampleControls{
+    display: flex;
+    align-items: center;
+}
