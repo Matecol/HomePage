@@ -1,16 +1,19 @@
 body{
-    background-color: black;
+    background-color: #1C1C1C;
 }
 .principal-head{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: #00A859;
 }
 
 .principal-head-info{
     margin: 1.2%;
     font-size: 1.5rem;
-    color: 1E1E1E;
+    color: #003B4A;
+    font-weight: bold;
+    font-size: 1.375rem;
     font-family: "Noto Serif Tamil", serif;}
 
 .nav-bar{
@@ -27,12 +30,101 @@ body{
     font-weight: bold;
 
 }
+.principal-head-info p2{
+    font-family: "Noto Serif Tamil", serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -0.938rem;
+    margin-right: 3.75rem;
+    
+}
 
 .nav-bar a{
+    color: black;
     text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: 900;
 }
 
 .carouselExampleControls{
     display: flex;
     align-items: center;
+    
+}
+
+.carousel-inner{
+    margin-top: 12.5rem;
+}
+
+.rodape-info-contatos{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 15rem;
+    background-color: #00A859;
+    margin-top: 10rem;
+}
+.info-item h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #1C1C1C;
+
+}
+.info-item p{
+    color: white;
+    font-size: 1rem;
+}
+
+.info-item strong{
+    font-size: 1.05rem;
+    color: #A8CF45;
+}
+
+.icon{
+    color: #1C1C1C;
+    text-decoration: none;
+}
+@media only screen and (max-width: 48rem) {
+    .principal-head {
+        flex-direction: column;
+        text-align: center;   
+    }
+
+    .principal-head img{
+        margin-top: 1rem;
+    }
+    .principal-head-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 1rem;
+        font-weight: 900;
+    }
+    
+    .principal-head-info p2{
+        margin-left: 4rem;
+        font-weight: 900;
+    }
+    .nav-bar {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+
+    .nav-bar img{
+        display: none;
+    }
+    .carousel-inner {
+        margin-top: 5rem;
+    } 
+
+    .carousel-inner img{
+       max-width: 20rem;
+    }
 }
