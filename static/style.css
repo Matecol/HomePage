@@ -56,10 +56,6 @@
     margin-top: 12.5rem;
 }
 
-footer {
-    position: absolute; height: 2.5rem; width: 100%; bottom: 0}
-.position-relative {position: relative}
-
 .rodape-info-contatos{
     display: flex;
     align-items: center;
