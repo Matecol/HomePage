@@ -17,7 +17,9 @@
         <header>
             <div class="principal-head">
                 <div class="principal-head-logo">
+                  <a href="/templates/Home.html">
                     <img src="/images/mail.png" width="50%" height="25%"alt="Logo matecol-construcao e agricultura">
+                  </a>
                 </div>
                 <div class="principal-head-info">
                     <p>Santo Antônio de Jesus: 75 3632-4044</p>
@@ -28,17 +30,55 @@
         </header>
         <nav>
             <div class="nav-bar">
-                <a class="navbar-brand" href="#">
-                    <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
-                  </a>
-                  <a href="/templates/Home.html"></i>Matecol</a>
-                  <a href="/templates/Produtos.html">Produtos</a>
-                  <a href="/templates/Varejo.html"><i class="fa-solid fa-house"></i>Varejo</a>
-                  <a href="/templates/Atacado.html">Atacado</a>
-                  <a href="/templates/Contato.html">Fale conosco</a>
+                <a class="navbar-brand" href="/templates/Home.html">
+                    <img src="/images/140px.png" width="100%" height="75%" alt="">
+                </a>
+                <a href="/templates/Sobre.html">Sobre nós</a>                  
+                <a href="/templates/Produtos.html">Produtos</a>
+                <a href="/templates/Varejo.html">Varejo</a>
+                <a href="/templates/Atacado.html">Atacado</a>
+                <a href="/templates/Contato.html">Fale conosco</a>
             </div>
         </nav>
     <h1>Varejooo</h1>
     </body>
+    <footer>
+        <div class="rodape-info-contatos">
+          <div class="info-item">
+            <h3 class="heading">Endereços</h3>
+            <p><strong>Santo Ântonio de Jesus - </strong>Praça Dr. Renato Machado, 100 – Centro</p>
+            <p><strong>São Miguel das Matas - </strong>Rua Agapito Quadros, 06 – Centro</p>
+          </div>
+          <div class="info-item">
+            <h3 class="heading">Contatos</h3>
+            <p>+55 (75) 3632-4044</p>
+            <p>+55 (75) 3676-2106</p>
+          </div>
+          <div class="logo-item">
+            <img src="/images/140px.png" width="100%" height="75%" alt="">
+          </div>
+
+          <div class="social-item">
+            <a class="icon" href="">
+              <i class="fa-brands fa-whatsapp fa-2xl"></i>
+            </a>
+            <a class="icon" href="">
+              <i class="fa-brands fa-instagram fa-2xl"></i>
+            </a>
+            <a class="icon" href="">
+              <i class="fa-brands fa-facebook fa-2xl"></i>
+            </a>
+            <a class="icon" href="">
+              <i class="fa-brands fa-youtube fa-2xl"></i>
+            </a>
+          </div>
+        </div>
+        
+      </footer>
 </html>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/4ce9366941.js" crossorigin="anonymous"></script>
+<script>
+  if (document.querySelector('body').offsetHeight > window.innerHeight)
+    document.querySelector('footer').classList.add('footer-relative');
+</script>

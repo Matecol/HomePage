@@ -1,0 +1,21 @@
+.about-us{
+    display:block;
+}
+
+.about-us h1{
+    margin: 1.5%;
+    text-align: center;
+}
+
+.about-us-text{
+    text-align: center;
+    font-size: 25px;
+    margin: 1.25%;
+    word-wrap:break-word;
+}
+
+.photos-store{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
