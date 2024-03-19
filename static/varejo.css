@@ -14,13 +14,14 @@
     
 }
 
+
 .forms2{
   display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
   
-  margin-top: 43%;
+  margin-top: 10%;
   width: 25rem;
   height: 12.5rem;
   border-radius: 30px;
