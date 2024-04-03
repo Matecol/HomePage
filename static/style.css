@@ -70,29 +70,60 @@ body{
     align-items: center;
     justify-content:space-evenly;
     height: 15rem;
-    background-color: #25632D;
+    background-color: #276930;
     margin-top: 10rem;
 }
+
+.card {
+    display: flex;
+    justify-content: flex-end; 
+    width: 35.625rem;
+    height:  6.25rem;
+    border-radius: 2.5rem;
+    border-color:#276930;
+    background: #245f2c;              
+}
+
+.cardnum {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 12.5rem;
+    height: 6.25rem;
+    border-radius: 2.5rem;
+    border-color:#276930;
+    background: #245f2c;       
+}
+.info-item{
+    margin-right: 3rem;
+}
+
 .info-item h3{
-     font-family: "Suez One", serif;   
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 1.5rem;
+    font-family: "Suez One", serif;   
+    font-weight: 500;
+    font-size: 2rem;
     color: #1C1C1C;
-    margin-bottom: 1.25rem;
+    margin-bottom: 2.5rem;
+    
 
 }
 .info-item p{
-     font-family: "Suez One", serif;
+    font-family: "Suez One", serif;
     color: #e5e7e7;
-    font-weight: bold;
     font-size: 1rem;
+    font-weight: 500;
+    margin-left: 2rem;
+    
 }
+
 
 .info-item strong{
     font-size: 1.05rem;
+    font-weight: 500;
     color: #A8CF45;
 }
+
 
 ul {
     list-style: none;
@@ -102,6 +133,8 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
+   
 }
 
 .example-2 .icon-content {
