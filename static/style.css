@@ -65,15 +65,14 @@ body{
 .principais-marcas{
     display: flex;
     justify-content: space-around;
-    margin-top: 5.5%;
+    margin-top: 8rem;
     background-color: whitesmoke;
-    mix-blend-mode: hard-light;
+   
     
 }
 
 .principais-marcas-imagens{
-    width: 15%;
-    aspect-ratio: 3/2;
+    width: 12%;
     object-fit: contain;
 }
 .conheca-matecol{
@@ -90,14 +89,29 @@ body{
     margin: 2.5%;
 }
 .sobre-nos h2{
-    color: #276930;
+    color: #00A859;
+    font-family: "Suez One", serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
 }
-.abacaxi{
+
+.paragrafo{
     color: white;
     word-wrap: break-word;
-
+    font-family: "Archivo Black", sans-serif;
     font-size: 1.5rem;
     width: 100%;
+    margin-top: 6rem;
+    margin-left: 2rem;
+}
+
+.logomatecol{
+    margin-top: 8rem;
+    margin-right: 8rem;
+    width: 50%;
+    height: 50%;
 }
 .conheca-matecol {
     display: flex;
@@ -135,11 +149,57 @@ body{
 
 .exclusivos{
     color: white;
+    margin-top: 10rem;
+    margin-left: 10rem;
 }
 
+.exclusivos h1{
+    color: white;
+    font-family: "Suez One", serif;   
+    font-weight: 500;
+    font-size: 3rem;
+}
 
+.h1sec{
+    margin-left: 9rem;
+}
 
+.card2 h3{
+    color: white;
+    font-family: "Suez One", serif;   
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+}
+.card2 {
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 8rem;
+    width: 18rem;
+    height: 7rem;
+    border-radius: 1.2rem;
+    border-color:#337ab7;
+    background: linear-gradient(135deg, #459dcf, #337ab7, #337ab7, #2794f1);            
+}
 
+.arrow{
+    margin-right: 2rem;
+    margin-top: 1.8rem;
+    width: 3.125rem; 
+    height: 3.125rem;
+    filter: brightness(10000%) saturate(0%);
+}
+
+.portobahia {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo-container {
+    margin-left: 5rem;
+    margin-top: 8rem;
+}
 /* CSS RODAPE */
 .rodape-info-contatos{
     display: flex;
@@ -334,6 +394,15 @@ ul {
     
 }  
 
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+}
+
+.carousel-item{
+    margin-top: 10rem;
+}
 
 @media only screen and (max-width: 48rem) {
     .principal-head {
@@ -374,6 +443,7 @@ ul {
 
     .carousel-inner img{
        max-width: 20rem;
+       
     }
 }
 
