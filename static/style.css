@@ -194,11 +194,25 @@ body{
 .portobahia {
     display: flex;
     justify-content: flex-start;
+    align-items: flex-end;
 }
 
 .logo-container {
     margin-left: 5rem;
     margin-top: 8rem;
+}
+
+.orcamento {
+    display: flex;
+    justify-content: center; 
+    width: 36rem;
+    height:  16rem;
+    border-radius: 2.5rem;
+    border-color:#276930;
+    background: #245f2c;              
+}
+.orcamento h1{
+    text-align: center;
 }
 /* CSS RODAPE */
 .rodape-info-contatos{
