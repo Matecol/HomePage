@@ -79,10 +79,7 @@ body{
     display: flex;
     align-items: center
 }
-.conheca-matecol img{
-    margin-top: 1.5%;
-    margin-right: 1.5%;
-}
+
 .sobre-nos{
     width: 100%;
     display: inline-block;
@@ -101,18 +98,25 @@ body{
     color: white;
     word-wrap: break-word;
     font-family: "Archivo Black", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 100%;
-    margin-top: 6rem;
+    margin-top: 4rem;
     margin-left: 2rem;
 }
 
 .logomatecol{
     margin-top: 8rem;
-    margin-right: 8rem;
+    margin-left: 2rem;
     width: 50%;
-    height: 50%;
+    height: auto;
 }
+
+.logomatecol img {
+    max-width: 80%; 
+    height: auto;
+    margin-left: 3rem; 
+}
+
 .conheca-matecol {
     display: flex;
 }
@@ -126,15 +130,50 @@ body{
     display: flex;
     width: 21rem;
     height: 5rem;
-    /* top-left | top-right | bottom-right | bottom-left */
+    margin-top: 5rem;
     border-radius:  0 15px 15px 0;
     border-color:#276930;
     background: #245f2c;
     color: white;
+    margin-bottom: 5rem;
 }
 .nossas-filiais h1{
     margin-left: 17%;
     margin-top: 2.77%;
+}
+
+.image-with-caption {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 5rem;
+}
+
+.image-with-caption .caption {
+    position: absolute;
+    bottom: 0;
+    left: 2.7rem;
+    background-color: #25632D;
+    box-shadow: 20px 20px 30px rgb(2, 2, 2);
+    padding: 0.625rem;
+    width: 36.3rem; 
+    height: 3rem; 
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    overflow: hidden;
+}
+
+
+.caption p{
+    color: #ffff;
+    font-weight: 500;
+    font-family: "Suez One", serif;
+    
+}
+
+.caption strong{
+    color: #A8CF45;
+    font-weight: 500;
+    font-family: "Suez One", serif;
 }
 .filiais-um{
     display: flex;
@@ -149,8 +188,8 @@ body{
 
 .exclusivos{
     color: white;
-    margin-top: 10rem;
-    margin-left: 10rem;
+    margin-top: 8rem;
+    margin-left: 15rem;
 }
 
 .exclusivos h1{
@@ -200,20 +239,36 @@ body{
 .logo-container {
     margin-left: 5rem;
     margin-top: 8rem;
+    
 }
 
+.logo-container img{
+    border-radius: 1.2rem;
+}
 .orcamento {
     display: flex;
     justify-content: center; 
-    width: 36rem;
-    height:  16rem;
+    width: 24rem;
+    height:  14rem;
     border-radius: 2.5rem;
     border-color:#276930;
-    background: #245f2c;              
+    background: #245f2c;  
+    margin-left: 15rem;            
 }
-.orcamento h1{
-    text-align: center;
+.orcamento img{
+    width: 80%;
+    height: 80%;
+    margin-top: 2.82rem;
 }
+
+.cardzin h1{
+    display: flex;
+    margin-left: 9rem;
+    margin-top: 4rem; 
+    font-size: 2.2rem;
+}
+
+
 /* CSS RODAPE */
 .rodape-info-contatos{
     display: flex;
@@ -274,7 +329,14 @@ body{
     color: #A8CF45;
 }
 
+.paragrafo strong{
+    color: #00A758;
+}
 
+.matecolm{
+    width: 100%;
+    margin-left: 5rem;
+}
 ul {
     list-style: none;
 }
