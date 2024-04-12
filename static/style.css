@@ -195,19 +195,21 @@ background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, F
     display: flex;
     justify-content:space-around;
     align-items: flex-end;
+    margin: 2.5%;
 }
 
 .card2 {
     display: flex;
     justify-content: flex-end; 
     align-items: center;
+    width: fit-content; 
     border-radius: 1.2rem;
     border-color:#337ab7;
     background: linear-gradient(135deg, #459dcf, #337ab7, #337ab7, #2794f1);            
 }
 .card2 h3{
     /* topo | direita | inferior | esquerda */
-    margin: 6% 0% 6% 6%;
+    margin: 8% 0% 8% 8%;
     color: white;
     font-family: "Suez One", serif;   
     font-weight: 500;
@@ -215,9 +217,10 @@ background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, F
 }
 
 .arrow{
-    margin: 5%;
-    width: 3.125rem; 
-    height: 3.125rem;
+    /* topo | direita | inferior | esquerda */
+    margin: 5% 5% 5% 5%;
+    width: 3.1rem; 
+    height: 3.1rem;
     filter: brightness(10000%) saturate(0%);
 }
 
@@ -235,7 +238,6 @@ background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, F
     justify-content:flex-end;
     align-items: center;
     width: 25rem;
-    height:  14rem;
     border-radius: 2.5rem;
     border-color:#276930;
     background: #245f2c;  
