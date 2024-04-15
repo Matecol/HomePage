@@ -1,4 +1,8 @@
 @media (min-width: 355px) {
+    .principal-head-logo img{
+        max-width: 100%;
+    }
+
     .nav-bar {
         text-align: center; 
     }
@@ -7,5 +11,51 @@
         display:block; 
         margin-bottom: 10px; 
         font-size: 25px;
+    }
+
+    .principais-marcas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .principais-marcas-imagens{
+        display: flex;
+        justify-content: center;
+        width: 45%;
+        margin: 5%;
+    }
+
+    .sobre-nos{
+        word-break:keep-all;
+        word-spacing: 2px;
+    }
+    .sobre-nos h2{
+        margin: 2.5%;
+    }
+
+    .paragrafo{
+        margin: 2%;
+    }
+
+    .logomatecol{
+        display: flex;
+        justify-content: center;
+        margin: 10%;
+    }   
+
+    .logomatecol img{
+        max-width: 80%;
+    }
+
+    .lojas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5%;
+    }
+
+    .lojas img{
+        max-width: 95%;
     }
 }
