@@ -139,4 +139,11 @@
     .lojas img{
         max-width: 95%;
     }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        display: inline-block;
+        width: 5rem;
+        height: 3rem;
+        margin-top: 10rem;
+        
+    }
 }
