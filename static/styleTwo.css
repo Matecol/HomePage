@@ -19,14 +19,30 @@
         background-color: #25632D;
     }
       
-    .nav-bar a {
-        display:block;  
+    .nav-bar a{
+        position: relative;
         color: white;
-        font-family: "Suez One", serif;
+        font-family: "Suez One", serif;  
         text-decoration: none;
         text-transform: uppercase;
-        font-size: 1.2rem;
-        font-weight: 400;
+        font-size: 1.5rem;
+        font-weight: 400;      
+    }
+    
+    .nav-bar a::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        width: 100%;
+        height: 2px;
+        background-color: #A8CF45; 
+        transition: all 0.3s ease; 
+        transform: scaleX(0); 
+    }
+    
+    .nav-bar a:hover::after {
+        transform: scaleX(1); 
     }
 
     .principais-marcas{
