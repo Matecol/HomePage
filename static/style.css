@@ -86,17 +86,20 @@ body{
 }
 .sobre-nos h2{
     color: #00A859;
-    font-family: "Suez One", serif;
+    font-family: "Konkhmer Sleokchher", system-ui;
     font-weight: 500;
-    font-size: 2.5rem;
-    margin-left: 4rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     margin-top: 2rem;
+    
 }
 
 .paragrafo{
     color: white;
     word-wrap: break-word;
-    font-family: "Archivo Black", sans-serif;
+    font-family: "Konkhmer Sleokchher", system-ui;
     font-size: 1.2rem;
     width: 100%;
     margin-top: 4rem;

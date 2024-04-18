@@ -64,7 +64,7 @@
     .sobre-nos h2{
         margin: 2.5%;
         color: #00A859;
-        font-family: "Suez One", serif;
+        font-family: "Konkhmer Sleokchher", system-ui;
     }
 
     .nossas-lojas {
@@ -82,7 +82,7 @@
     .paragrafo{
         margin: 2%;
         color: white;
-        font-family: "Archivo Black", sans-serif;
+        font-family: "Konkhmer Sleokchher", system-ui;
     }
 
     .paragrafo strong {
@@ -102,6 +102,8 @@
         box-shadow: 20px 20px 30px rgb(2, 2, 2);
         padding: 0.425rem;
         font-size: 0.8rem;
+        height: 3rem;
+        width: 19.2rem;
     }
     
 
