@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
 @media (min-width: 355px) {
     body{
         background-color: #1C1C1C;
@@ -20,7 +22,7 @@
     }
       
     .nav-bar a{
-        position: relative;
+        display: block;
         color: white;
         font-family: "Suez One", serif;  
         text-decoration: none;
@@ -141,11 +143,84 @@
     .lojas img{
         max-width: 95%;
     }
-    .carousel-control-next-icon, .carousel-control-prev-icon {
-        display: inline-block;
-        width: 5rem;
-        height: 3rem;
-        margin-top: 10rem;
-        
+/*CARDS "NOTICIAS"*/
+
+    .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin-block: 2rem;
+    gap: 2rem;
     }
+
+    img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+    }
+
+    .card {
+    display: flex;
+    flex-direction: column;
+    width: clamp(20rem, calc(20rem + 2vw), 22rem);
+    overflow: hidden;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    background: #ECE9E6;
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+
+    }
+
+    .card__body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    }
+    .card__body p{
+        font-size: ;
+    }
+
+    .tag {
+    align-self: flex-start;
+    padding: .25em .75em;
+    border-radius: 1em;
+    font-size: .75rem;
+    }
+
+    .tag + .tag {
+    margin-left: .5em;
+    }
+
+    .tag-blue {
+    background: #56CCF2;
+    background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+    color: #fafafa;
+    }
+
+    .tag-brown {
+    background: #D1913C;
+    background: linear-gradient(to bottom, #FFD194, #D1913C);
+    color: #fafafa;
+    }
+
+    .tag-red {
+    background: #cb2d3e;
+    background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+    color: #fafafa;
+    }
+
+    .card__body h4 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    }
+
+    .card__footer {
+    display: flex;
+    padding: 1rem;
+    margin-top: auto;
+    }
+
 }
+
