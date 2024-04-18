@@ -177,9 +177,7 @@
     display: flex;
     flex-direction: column;
     gap: .5rem;
-    }
-    .card__body p{
-        font-size: ;
+    cursor: pointer;
     }
 
     .tag {
@@ -221,6 +219,23 @@
     padding: 1rem;
     margin-top: auto;
     }
-
+/*RODAPÉ*/
+.rodape-info-contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: #276930;
+    }
+.info-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .card-rodape{
+        display: flex;
+        word-wrap: break-word;
+    }
 }
+
 

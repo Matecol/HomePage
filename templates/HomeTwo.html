@@ -129,21 +129,78 @@
             </div>
         </section>
         <div class="container">
-          <div class="card">
+          <div class="card" onclick="toggleCard()">
             <div class="card__header">
               <img src="/images/reflorestamento-e-sustentabilidade.jpg" alt="card__image" class="card__image" width="600">
             </div>
             <div class="card__body">
-              <span class="tag tag-blue">Meio Ambiete</span>
+              <span class="tag tag-blue">Meio Ambiente</span>
               <h4>Matecol e a sustentabilidade</h4>
-              <p>Prezamos pelo respeito a nossos clientes e a sociedade, por isso, utilizamos madeiras ecologicamente corretas, de reflorestamento e que possuem Documento de Origem Florestal (DOF).
-                <br>
-              A Matecol valoriza a procedência de seus produtos e mantém em seu pátio apenas madeiras reflorestadas e legalizadas, provenientes de um processo produtivo de manejo sustentável, além de acompanhar a origem, extração e transporte dos produtos, garantindo, assim, madeiras de qualidade e totalmente legalizadas para nossos clientes.</p>
+              <p class="partial-text">Prezamos pelo respeito a nossos clientes e a sociedade. LER MAIS...</p>
+              <p class="full-text" style="display: none;">Prezamos pelo respeito a nossos clientes e a sociedade, por isso, utilizamos madeiras ecologicamente corretas, de reflorestamento e que possuem Documento de Origem Florestal (DOF). A Matecol valoriza a procedência de seus produtos e mantém em seu pátio apenas madeiras reflorestadas e legalizadas, provenientes de um processo produtivo de manejo sustentável, além de acompanhar a origem, extração e transporte dos produtos, garantindo, assim, madeiras de qualidade e totalmente legalizadas para nossos clientes.</p>
             </div>
           </div>
         </div>
-          
+        <div class="container">
+          <div class="card" onclick="toggleCard()">
+            <div class="card__header">
+              <img src="/images/reflorestamento-e-sustentabilidade.jpg" alt="card__image" class="card__image" width="600">
+            </div>
+            <div class="card__body">
+              <span class="tag tag-blue">Atacado</span>
+              <h4>Matecol Atacado</h4>
+              <p class="partial-text">
+                Desde 1994, a Matecol é referência no ramo de materiais de construção, tendo 4 lojas para melhor atender aos nossos clientes.  LER MAIS...</p>
+              <p class="full-text" style="display: none;">Além disso, contamos também com a Matecol Atacado, loja que vem se destacando ao longo dos anos por atender de forma rápida e eficiente lojistas parceiros e clientes de atacado.
+                Dispomos de uma infraestrutura de qualidade e profissionais altamente treinados para fazer das suas compras uma experiencia excepcional. Se você busca maior qualidade com o menor preço venha conhecer a Matecol atacado! É barato, É Matecol!</p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="card" onclick="toggleCard()">
+            <div class="card__header">
+              <img src="/images/reflorestamento-e-sustentabilidade.jpg" alt="card__image" class="card__image" width="600">
+            </div>
+            <div class="card__body">
+              <span class="tag tag-blue">Meio Ambiente</span>
+              <h4>Matecol e a sustentabilidade</h4>
+              <p class="partial-text">Prezamos pelo respeito a nossos clientes e a sociedade. LER MAIS...</p>
+              <p class="full-text" style="display: none;">Prezamos pelo respeito a nossos clientes e a sociedade, por isso, utilizamos madeiras ecologicamente corretas, de reflorestamento e que possuem Documento de Origem Florestal (DOF). A Matecol valoriza a procedência de seus produtos e mantém em seu pátio apenas madeiras reflorestadas e legalizadas, provenientes de um processo produtivo de manejo sustentável, além de acompanhar a origem, extração e transporte dos produtos, garantindo, assim, madeiras de qualidade e totalmente legalizadas para nossos clientes.</p>
+            </div>
+          </div>
+        </div>
     </body>
+    <footer>
+      <div class="rodape-info-contatos">
+        <div class="info-item">
+          <h3 class="heading">Endereços</h3><div class="card-rodape">
+          <a href="https://www.google.com/maps/place/Matecol+Atacado/@-12.9651013,-39.2619498,17z/data=!3m1!4b1!4m6!3m5!1s0x73e2a40177a37c1:0xfbdb04bb5b777939!8m2!3d-12.9651065!4d-39.2593695!16s%2Fg%2F11dfj9w7nc?entry=ttu" style="text-decoration: none;">
+            <p><strong>Santo Ântonio de Jesus - </strong>Praça Dr. Renato Machado, 100 – Centro</p></a>
+          <a href="https://www.google.com/maps/place/Matecol+-+S%C3%A3o+Miguel/@-13.0470534,-39.4555519,19.27z/data=!4m14!1m7!3m6!1s0x73fd02fa2b071a5:0x647d704ea34902bb!2sR.+Agapito+Quadros,+6,+S%C3%A3o+Miguel+das+Matas+-+BA,+44580-000!3b1!8m2!3d-13.047058!4d-39.4554017!3m5!1s0x73fd0374c2013fb:0x9921312741c1fcf2!8m2!3d-13.0471994!4d-39.4555274!16s%2Fg%2F11dfh99s13?entry=ttu" style="text-decoration: none;">
+          <p><strong>São Miguel das Matas - </strong>Rua Agapito Quadros, 06 – Centro</p></a></div>
+        </div>
+        <div class="info-item">
+          <h3 class="heading">Contatos</h3><div class="cardnum">
+          <p>+55 (75) 3632-4044</p>
+          <p>+55 (75) 3676-2106</p></div>
+        </div>
+    </footer>
 </html>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/4ce9366941.js" crossorigin="anonymous"></script>
+
+<script>
+  function toggleCard() {
+    const cardBody = event.currentTarget.querySelector('.card__body');
+    const partialText = cardBody.querySelector('.partial-text');
+    const fullText = cardBody.querySelector('.full-text');
+    
+    if (partialText.style.display === 'none') {
+      partialText.style.display = 'block';
+      fullText.style.display = 'none';
+    } else {
+      partialText.style.display = 'none';
+      fullText.style.display = 'block';
+    }
+  }
+</script>
