@@ -219,22 +219,35 @@
     padding: 1rem;
     margin-top: auto;
     }
+/*LINHA EXCLUSIVA*/
+
 /*RODAPÉ*/
-.rodape-info-contatos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:space-evenly;
-    background-color: #276930;
+    footer{
+        background-color: #276930;
     }
-.info-item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
-    .card-rodape{
+
+    .rodape-info-contatos{
         display: flex;
-        word-wrap: break-word;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-evenly;
+        }
+    .info-item{
+        display: block;
+        text-align: center;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+    }
+    .icon{
+        display: flex;
+        margin: 7.5%;
+        list-style: none;
+    }
+    .icon svg{
+        height: 2rem;
+        
     }
 }
 
