@@ -107,7 +107,7 @@
         padding: 0.425rem;
         font-size: 0.8rem;
         height: 3rem;
-        width: 19.2rem;
+        width: auto;
     }
     
 
@@ -244,21 +244,21 @@
         display: flex;
         align-items: center;
         justify-content: center ;
-        margin: 10%;
         background-color: #459DCF;
         border-radius: 15px;
 
     }
     .site-porto p{
-        margin: 1rem;
+        margin: 1em;
     }
     .site-porto img{
-        width: 10%;
+        width: 2.25rem;
+        margin: 1rem;
         transform: rotate(90deg);
     }
 
     .img-porto{
-        width: 35%;
+        width: 10rem;
         margin: 2.5%;
     }
     .img-porto img{
