@@ -33,6 +33,25 @@ body{
     transform: scaleX(1); 
 }
 
+/* QUEM SOMOS */
+
+.section-quem-somos-card {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-align: justify;
+
+}
+
+.section-quem-somos-card  strong {
+    color: #00A758;
+}
+
+.quemsomos {
+    color: #00A758;
+    text-align: center;
+    margin-top: 4rem;
+}
 
 /* ÍCONES REDES SOCIAIS*/
 
@@ -163,7 +182,6 @@ footer{
         position: absolute;
     }
     
-
     .principais-marcas{
         display: flex;
         align-items: center;
@@ -176,16 +194,6 @@ footer{
         width: 16.5%;
     }
 
-    .sobre-nos{
-        text-align:center;
-    }
-
-    .sobre-nos h2{
-        margin: 5%;
-        color: #00A859;
-        font-family: "Konkhmer Sleokchher", system-ui;
-    }
-
     .nossas-lojas {
         display: flex;
         justify-content: space-evenly;
@@ -194,26 +202,50 @@ footer{
         border-color: #276930;
         background: #245f2c;
         color: white;
-        margin-bottom: 5rem;
+        font-family: "Poppins", sans-serif;
+        margin-bottom: 3rem;
         margin-top: 5rem;
+        height: 4rem;
+    }
+
+    
+    .section-quem-somos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
     }
     
-    .paragrafo{
-        margin: 10%;
-        color: white;
-        font-family: "Konkhmer Sleokchher", system-ui;
-        text-align: justify;
+    .section-quem-somos-card {
+        width: 85%;
+        height: auto;
+        padding: 25px 25px;
+        background-color: #272727;
+        border-radius: 25px;
+    }    
 
-    }
-
-    .paragrafo strong {
+    .section-quem-somos-card  strong {
         color: #00A758;
+    }
+    
+    .section-quem-somos-card > img {
+        width: 60%;
+        height: auto;
+        margin-bottom: 2rem;
+        margin-left: 3.8rem;
+    }
+    
+    .quemsomos {
+        color: #00A758;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 500;
     }
     
     .image-with-caption {
         display: flex;
         flex-direction: column;
-        margin-bottom: 6rem;
+        margin-bottom: 3rem;
         align-items: center;
     }
     
@@ -222,9 +254,9 @@ footer{
         background-color: #25632D;
         box-shadow: 20px 20px 30px rgb(2, 2, 2);
         padding: 0.425rem;
-        font-size: 0.8rem;
-        height: 3rem;
-        width: auto;
+        font-size: 1rem;
+        height: 3.5rem;
+        width: 95%;
     }
     
 
@@ -257,6 +289,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         margin: 5%;
+        
     }
 
     .lojas img{
@@ -343,14 +376,18 @@ footer{
         display: flex;
         flex-direction: column;
         color: white;
-        font-family: "Suez One", serif;
+        font-family: "Poppins", sans-serif;
+        
     }
 
     .exclusivos h1 {
         font-weight: 500;
         font-size: 1.5rem;
         text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 4rem;
     }
+
     .imagens-exclusivos{
         display: flex;
         flex-direction: column;
@@ -362,15 +399,18 @@ footer{
         justify-content: center ;
         background-color: #459DCF;
         border-radius: 15px;
-
+        margin-bottom: 2rem;
     }
     .site-porto p{
         margin: 1em;
+        font-size: 1.2rem;
+        font-weight: 500;
     }
     .site-porto img{
         width: 2.25rem;
         margin: 1rem;
         transform: rotate(90deg);
+        filter: invert(100%);
     }
 
     .img-porto{
@@ -389,6 +429,9 @@ footer{
         background-color: #276930;
         padding: 2px 1em 0 1em;
         border-radius: 20px;
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-bottom: 5rem;
     }
 
     .orcamento img{
@@ -476,34 +519,48 @@ footer{
         justify-content: center;
         width: 16.5%;
     }
-    .sobre-nos{
-        text-align:center;
+    
+    .section-quem-somos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
     }
+    
+    .section-quem-somos-card {
+        width: 80%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        padding: 25px 25px;
+        background-color: #272727;
+        border-radius: 25px;
+    } 
 
-    .sobre-nos h2{
-        margin: 5%;
-        color: #00A859;
-        font-family: "Konkhmer Sleokchher", system-ui;
-    }
-    .paragrafo{
-        margin: 10%;
-        color: white;
-        font-family: "Konkhmer Sleokchher", system-ui;
-        text-align: justify;
-
-    }
-    .paragrafo strong {
+    .section-quem-somos-card  strong {
         color: #00A758;
     }
-    .logomatecol{
-        display: flex;
-        justify-content: center;
-        margin: 10%;
-    }   
+    
+    .section-quem-somos-card  img {
+        width: 30%;
+        height: auto;
+        padding: 3rem;
+    }
+    
+    .quemsomos {
+        color: #00A758;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
 
-    .logomatecol img{
-        max-width: 80%;
-    }   
+    .lojas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5%;  
+    }
+
     .nossas-lojas {
         display: flex;
         justify-content: space-evenly;
@@ -512,25 +569,19 @@ footer{
         border-color: #276930;
         background: #245f2c;
         color: white;
+        font-family: "Poppins", sans-serif;
         margin-bottom: 5rem;
         margin-top: 5rem;
+        height: 5rem;
+        width: 85%;
     }
+
+    
     .loja-um{
         display:flex ;
         flex-flow: row wrap;
         align-items: center;
         justify-content: space-around;
-    }
-
-    .paragrafo{
-        margin: 10%;
-        color: white;
-        font-family: "Konkhmer Sleokchher", system-ui;
-        text-align: justify;
-    }
-
-    .paragrafo strong {
-        color: #00A758;
     }
     
     .image-with-caption {
@@ -545,14 +596,15 @@ footer{
         box-shadow: 20px 20px 30px rgb(2, 2, 2);
         padding: 0.425rem;
         font-size: 0.8rem;
-        height: 3rem;
-        width: auto;
+        height: 2.8rem;
+        width: 100%;
     }
     
     .caption p{
         color: #ffff;
         font-weight: 500;
         font-family: "Suez One", serif;
+        font-size: 1rem;
     }
     
     .caption strong{
@@ -635,19 +687,27 @@ footer{
 /*LINHA EXCLUSIVA*/
     .exclusivos{
         display: flex;
+        flex-direction: column;
         color: white;
-        font-family: "Suez One", serif;
-        margin:1rem;
-        justify-content: center;
+        font-family: "Poppins", sans-serif;
+        margin-top: 5rem;
+       
     }
 
     .exclusivos h1{
+        display: flex;
+        align-items: center;
         font-weight: 500;
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
+    
     .imagens-exclusivos{
         display: flex;
         align-items: center;
+       justify-content:space-around;
+       margin-top: 5rem;
+       margin-bottom: 5rem;
+       
     }
     .site-porto{
         display: flex;
@@ -664,6 +724,7 @@ footer{
     .site-porto img{
         width: 5.25rem;
         margin: 1rem;
+        filter: invert(100%);
     }
     .img-porto{
         width: 15rem;
@@ -677,7 +738,6 @@ footer{
         display: flex;
         align-items: center;
         justify-content: center ;
-        margin: 5%;
         background-color: #276930;
         padding: 2px 1em 0 1em;
         border-radius: 20px;
