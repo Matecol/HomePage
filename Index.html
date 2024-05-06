@@ -36,33 +36,8 @@
           </div>
         </nav>
         <div class="banners">
-          <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="/images/carrossel/banner011280x800.png" class="d-flex w-100 mx-auto " alt="...">
-
-              </div>
-              <div class="carousel-item">
-                <img src="/images/carrossel/banner021280x800.png" class="d-block w-100 mx-auto " alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="/images/carrossel/banner031280x800.png" class="d-block w-100 mx-auto " alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon w-100" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+          <img class="banner-pc" src="./images/Banner 1280x400px_  Reforme sua casa com a Matecol.png" alt="">
+          <img class="banner-mobile" src="./images/Banner550x400px_  Reforme sua casa com a Matecol.png" alt="">
         </div>
         <div class="principais-marcas">
           <img class="principais-marcas-imagens" src="/images/SUVINIL-LOGO-440.png" alt="">
@@ -127,7 +102,7 @@
         <section id="fique-ligado">
         <div class="noticias">
           <div class="container">
-            <div class="card" onclick="toggleCard(event)">
+            <div class="card" onclick="toggleCard(this)">
               <div class="card__header">
                 <img src="/images/reflorestamento-e-sustentabilidade.jpg" alt="card__image" class="card__image" width="600">
               </div>
@@ -140,7 +115,7 @@
             </div>
           </div>
           <div class="container">
-            <div class="card" onclick="toggleCard(event)">
+            <div class="card" onclick="toggleCard(this)">
               <div class="card__header">
                 <img src="/images/img04.jpg" alt="card__image" class="card__image" width="600">
               </div>
@@ -155,9 +130,9 @@
             </div>
           </div>
           <div class="container">
-            <div class="card" onclick="toggleCard(event)">
+            <div class="card" onclick="toggleCard(this)">
               <div class="card__header">
-                <img src="/images/reflorestamento-e-sustentabilidade.jpg" alt="card__image" class="card__image" width="600">
+                <img src="/images/WhatsApp Image 2024-05-03 at 17.57.36.jpeg" alt="card__image" class="card__image" width="600">
               </div>
               <div class="card__body">
                 <span class="tag tag-green">Razão Social</span>
@@ -271,17 +246,19 @@
 <script src="https://kit.fontawesome.com/4ce9366941.js" crossorigin="anonymous"></script>
 
 <script>
-  function toggleCard(event) {
-    const cardBody = event.currentTarget.querySelector('.card__body');
-    const partialText = cardBody.querySelector('.partial-text');
-    const fullText = cardBody.querySelector('.full-text');
-    
-    if (partialText.style.display === 'none') {
-      partialText.style.display = 'block';
-      fullText.style.display = 'none';
-    } else {
-      partialText.style.display = 'none';
-      fullText.style.display = 'block';
-    }
+function toggleCard(card) {
+  const cardBody = card.querySelector('.card__body');
+  const partialText = cardBody.querySelector('.partial-text');
+  const fullText = cardBody.querySelector('.full-text');
+  
+  if (partialText.style.display === 'none') {
+    partialText.style.display = 'block';
+    fullText.style.display = 'none';
+  } else {
+    partialText.style.display = 'none';
+    fullText.style.display = 'block';
   }
+}
+
+
 </script>
