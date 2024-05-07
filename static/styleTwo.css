@@ -11,11 +11,11 @@ body{
 }
 .nav-bar a{
     color: white;
-    font-family: "Suez One", serif;  
+    font-family: "Poppins", sans-serif;  
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.5rem;
-    font-weight: 400;      
+    font-weight: 900;      
 }
 
 .nav-bar a::after {
@@ -155,7 +155,7 @@ icons .icon-content a:active {
     background-color: #FF0000;
 }
 footer{
-    background-color: #276930;
+    background-image: url('/images/nav.png');
 }
 .banner-pc,
 .banner-mobile{
@@ -164,6 +164,9 @@ width:100%;
 height:100%;
 object-fit:cover;
 }
+
+
+/* CELULAR *//* CELULAR *//* CELULAR *//* CELULAR *//* CELULAR *//* CELULAR */
 @media (min-width: 355px) and (max-width: 767px) {
 
 
@@ -208,7 +211,7 @@ object-fit:cover;
         align-items: center;
         border-radius: 15px 15px 15px 15px;
         border-color: #276930;
-        background: #245f2c;
+        background-image: url('/images/fundo.png');
         color: white;
         font-family: "Poppins", sans-serif;
         margin-bottom: 3rem;
@@ -247,7 +250,7 @@ object-fit:cover;
         color: #00A758;
         text-align: center;
         font-size: 2rem;
-        font-weight: 500;
+        font-weight: 900;
     }
     
     .image-with-caption {
@@ -259,7 +262,7 @@ object-fit:cover;
     
     
     .caption {
-        background-color: #25632D;
+        background-image: url('/images/fundo.png');
         box-shadow: 20px 20px 30px rgb(2, 2, 2);
         padding: 0.425rem;
         font-size: 1rem;
@@ -271,13 +274,13 @@ object-fit:cover;
     .caption p{
         color: #ffff;
         font-weight: 500;
-        font-family: "Suez One", serif;
+        font-family: "Poppins", sans-serif;
     }
     
     .caption strong{
         color: #A8CF45;
         font-weight: 500;
-        font-family: "Suez One", serif;
+        font-family: "Poppins", sans-serif;
         
         
     }
@@ -435,7 +438,7 @@ object-fit:cover;
         align-items: center;
         justify-content: center ;
         margin: 5%;
-        background-color: #276930;
+        background-image: url('/images/nav.png'); 
         padding: 2px 1em 0 1em;
         border-radius: 20px;
         font-size: 1.2rem;
@@ -473,16 +476,16 @@ object-fit:cover;
         
     }
     .info-item h3{
-        font-family: "Suez One", serif;   
-        font-weight: 500;
-        font-size: 1.6rem;
+        font-family: "Poppins", sans-serif;  
+        font-weight: 900;
+        font-size: 1.8rem;
         color: #1C1C1C;
         padding: 5%;
     }
     .info-item p{
         display: flex;
         flex-direction: column;
-        font-family: "Konkhmer Sleokchher", system-ui;
+        font-family: "Poppins", sans-serif;
         color: #e5e7e7;
         font-size: 0.95rem;
         font-weight: 500;  
@@ -505,6 +508,9 @@ object-fit:cover;
     }
 
 }
+
+/*TABLET*//*TABLET*//*TABLET*//*TABLET*//*TABLET*//*TABLET*//*TABLET*//*TABLET*/
+
 @media(min-width:600px){
     .principal-head-logo img{
         display: flex;
@@ -564,7 +570,7 @@ object-fit:cover;
         color: #00A758;
         text-align: center;
         font-size: 2.5rem;
-        font-weight: 500;
+        font-weight: 900;
     }
 
     .lojas{
@@ -580,7 +586,7 @@ object-fit:cover;
         align-items: center;
         border-radius: 15px 15px 15px 15px;
         border-color: #276930;
-        background: #245f2c;
+        background-image: url('/images/fundo.png');
         color: white;
         font-family: "Poppins", sans-serif;
         margin-bottom: 5rem;
@@ -605,7 +611,7 @@ object-fit:cover;
     }
     
     .caption {
-        background-color: #25632D;
+        background-image: url('/images/fundo.png');
         box-shadow: 20px 20px 30px rgb(2, 2, 2);
         padding: 0.425rem;
         font-size: 0.8rem;
@@ -615,15 +621,15 @@ object-fit:cover;
     
     .caption p{
         color: #ffff;
-        font-weight: 500;
-        font-family: "Suez One", serif;
+        font-weight: 900;
+        font-family: "Poppins", sans-serif;
         font-size: 1rem;
     }
     
     .caption strong{
         color: #A8CF45;
         font-weight: 500;
-        font-family: "Suez One", serif;  
+        font-family: "Poppins", sans-serif;
     }   
     .noticias{
         display: block;
@@ -754,7 +760,7 @@ object-fit:cover;
         display: flex;
         align-items: center;
         justify-content: center ;
-        background-color: #276930;
+        background-image: url('/images/nav.png'); 
         padding: 2px 1em 0 1em;
         border-radius: 20px;
     }
@@ -790,7 +796,7 @@ object-fit:cover;
         
     }
     .info-item h3{
-        font-family: "Suez One", serif;   
+        font-family: "Poppins", sans-serif;   
         font-weight: 500;
         font-size: 1.6rem;
         color: #1C1C1C;
@@ -799,7 +805,7 @@ object-fit:cover;
     .info-item p{
         display: flex;
         flex-direction: column;
-        font-family: "Konkhmer Sleokchher", system-ui;
+        font-family: "Poppins", sans-serif;
         color: #e5e7e7;
         font-size: 0.95rem;
         font-weight: 500;  
@@ -881,7 +887,7 @@ object-fit:cover;
         color: #00A758;
         text-align: center;
         font-size: 2.5rem;
-        font-weight: 500;
+        font-weight: 900;
     }
 
     .lojas{
@@ -897,7 +903,7 @@ object-fit:cover;
         align-items: center;
         border-radius: 15px 15px 15px 15px;
         border-color: #276930;
-        background: #245f2c;
+        background-image: url('/images/fundo.png');
         color: white;
         font-family: "Poppins", sans-serif;
         margin-bottom: 5rem;
@@ -922,7 +928,7 @@ object-fit:cover;
     }
     
     .caption {
-        background-color: #25632D;
+        background-image: url('/images/fundo.png');
         box-shadow: 20px 20px 30px rgb(2, 2, 2);
         padding: 0.425rem;
         font-size: 0.8rem;
@@ -933,14 +939,14 @@ object-fit:cover;
     .caption p{
         color: #ffff;
         font-weight: 500;
-        font-family: "Suez One", serif;
+        font-family: "Poppins", sans-serif;
         font-size: 1rem;
     }
     
     .caption strong{
         color: #A8CF45;
         font-weight: 500;
-        font-family: "Suez One", serif;  
+        font-family: "Poppins", sans-serif; 
     }   
     .noticias{
         display: flex;
@@ -1071,7 +1077,7 @@ object-fit:cover;
         display: flex;
         align-items: center;
         justify-content: center ;
-        background-color: #276930;
+        background-image: url('/images/nav.png'); 
         padding: 2px 1em 0 1em;
         border-radius: 20px;
     }
@@ -1106,8 +1112,8 @@ object-fit:cover;
         
     }
     .info-item h3{
-        font-family: "Suez One", serif;   
-        font-weight: 500;
+        font-family: "Poppins", sans-serif;  
+        font-weight: 900;
         font-size: 1.6rem;
         color: #1C1C1C;
         padding: 5%;
@@ -1115,7 +1121,7 @@ object-fit:cover;
     .info-item p{
         display: flex;
         flex-direction: column;
-        font-family: "Konkhmer Sleokchher", system-ui;
+        font-family: "Poppins", sans-serif;
         color: #e5e7e7;
         font-size: 0.95rem;
         font-weight: 500;  
