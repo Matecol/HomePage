@@ -3,6 +3,8 @@
 body{
     background-color: #1C1C1C;
 }
+
+
 .principal-head{
     background-image: url('/images/fundo.png');
 }
@@ -950,6 +952,7 @@ object-fit:cover;
     }   
     .noticias{
         display: flex;
+        justify-content: space-evenly;    
     }
 
     .container {
@@ -957,7 +960,7 @@ object-fit:cover;
         flex-wrap: wrap;
         justify-content: center;
         gap: 1rem;
-        width: autp;
+        width: auto;
     }
 
     img {
@@ -978,6 +981,8 @@ object-fit:cover;
     
     }
 
+    
+    
     .card__body {
     padding: 1rem;
     display: flex;
@@ -1043,18 +1048,14 @@ object-fit:cover;
     .imagens-exclusivos{
         display: flex;
         align-items: center;
-       justify-content:space-around;
+       justify-content:center;
        margin-top: 5rem;
        margin-bottom: 5rem;
        
     }
     .site-porto{
-        display: flex;
-        align-items: center;
-        justify-content: center ;
         background-color: #459DCF;
         border-radius: 15px;
-
     }
     .site-porto p{
         margin: 1em;
