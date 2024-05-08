@@ -6,8 +6,11 @@ function toggleCard(card) {
     if (partialText.style.display === 'none') {
       partialText.style.display = 'block';
       fullText.style.display = 'none';
+      console.log("teste")
     } else {
       partialText.style.display = 'none';
       fullText.style.display = 'block';
+      console.log("teste3")
+
     }
   }

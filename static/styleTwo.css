@@ -57,12 +57,6 @@ body{
 
 /* ÍCONES REDES SOCIAIS*/
 
-.icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5%;
-}
 
 .icons .icon-content {
     margin: 0 0.625rem;
@@ -467,6 +461,8 @@ object-fit:cover;
     .icons{
         display: flex;
         justify-content: center;
+        padding: 2.5rem;
+
     }
     .icon{
         display: flex;
@@ -950,6 +946,7 @@ object-fit:cover;
         font-weight: 500;
         font-family: "Poppins", sans-serif; 
     }   
+    
     .noticias{
         display: flex;
         justify-content: space-evenly;    
@@ -990,7 +987,11 @@ object-fit:cover;
     gap: .5rem;
     cursor: pointer;
     }
-
+    .card__body.expanded {
+        max-height: 5000px; /* Ajuste a altura máxima conforme necessário */
+        overflow: auto; /* Adicione rolagem se o conteúdo for maior que a altura máxima */
+      }
+      
     .tag {
     align-self: flex-start;
     padding: .25em .75em;
