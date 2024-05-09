@@ -56,25 +56,30 @@
 // }
 
 // Adicione um evento de clique aos cards
-document.querySelectorAll('.card').forEach(card => {
-  card.addEventListener('click', () => toggleCard(card));
-});
+function toggleCard(container) {
+    const cardBody = container.querySelector('.card__body');
+    const partialText = cardBody.querySelector('.partial-text');
+    const fullText = cardBody.querySelector('.full-text');
+    
+    if (partialText.style.display === 'none') {
+      partialText.style.display = 'block';
+      fullText.style.display = 'none';
+      console.log("teste")
+    } else {
+      partialText.style.display = 'none';
+      fullText.style.display = 'block';
+      console.log("teste3")
 
-// Função para alternar o texto parcial e completo de um card
-function toggleCard(card) {
-  console.log(card);
-  const partialText = card.querySelector('.partial-text');
-  const fullText = card.querySelector('.full-text');
-  handleCard(partialText, fullText);
-}
-
-// Função para alternar a exibição do texto parcial e completo
-function handleCard(partialText, fullText) {
-  if (partialText.style.display === 'none' || partialText.style.display === '') {
-    partialText.style.display = 'block';
-    fullText.style.display = 'none';
-  } else {
-    partialText.style.display = 'none';
-    fullText.style.display = 'block';
+    }
   }
-}
+
+// // Função para alternar a exibição do texto parcial e completo
+// function handleCard(partialText, fullText) {
+//   if (partialText.style.display === 'none' || partialText.style.display === '') {
+//     partialText.style.display = 'block';
+//     fullText.style.display = 'none';
+//   } else {
+//     partialText.style.display = 'none';
+//     fullText.style.display = 'block';
+//   }
+// }

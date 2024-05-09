@@ -949,7 +949,8 @@ object-fit:cover;
     
     .noticias{
         display: flex;
-        justify-content: space-evenly;    
+        justify-content: space-evenly;   
+        height: 37rem; 
     }
 
     .container {
