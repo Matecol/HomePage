@@ -57,6 +57,12 @@ body{
 
 /* ÍCONES REDES SOCIAIS*/
 
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
 
 .icons .icon-content {
     margin: 0 0.625rem;
@@ -165,6 +171,9 @@ object-fit:cover;
 /* CELULAR *//* CELULAR *//* CELULAR *//* CELULAR *//* CELULAR *//* CELULAR */
 @media (min-width: 355px) and (max-width: 767px) {
 
+    .principal-head{
+        height: 6rem;
+    }
 
     .principal-head-logo{
         display: flex;
@@ -172,20 +181,115 @@ object-fit:cover;
     }
     .principal-head-logo img{
         max-width: 60%;
+        margin-top: 1rem;
+        margin-right: 4rem;
     }
 
     .nav-bar {
-        text-align: center; 
+        display: none;
     }
-      
-    .nav-bar a{
-        display: block;    
+
+    /* Nav menu */
+    a{
+        text-decoration: none;
+    }
+    ul{
+        list-style: none;
+    }
+
+    .nav {
+        width: 100%;
+        position: fixed;
+        overflow: hidden;
+        margin-top: 5rem;
+        background-color: transparent; /* Alterado para transparente */
+        transition: all 0.5s ease-out;
+        max-height: 0; /* Adicionado para manter o menu fechado inicialmente */
     }
     
-    .nav-bar a::after {
-        content: '';
-        position: absolute;
+    .menu {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
     }
+    
+    .menu a {
+        display: block;
+        padding: 1rem;
+        text-decoration: none;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 1.2rem;
+        
+    }
+    
+    .menu a:hover {
+        color: #A8CF45;
+    }
+    
+    .hamb {
+        cursor: pointer;
+        float: right;
+        margin-top: 3rem;
+    }
+    
+    .hamb-line {
+        background: white;
+        display: block;
+        height: 2px;
+        position: relative;
+        width: 24px;
+    }
+    
+    .hamb-line::before,
+    .hamb-line::after {
+        background: white;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all 0.5s ease-out;
+        width: 100%;
+    }
+    
+    .hamb-line::before {
+        top: 5px;
+    }
+    
+    .hamb-line::after {
+        top: -5px;
+    }
+    
+    .side-menu {
+        display: none;
+    }
+    
+    /* Toggle menu icon */
+    .side-menu:checked ~ .nav {
+        max-height: 50%; 
+        background-image: url('/images/nav.png');
+    }
+    
+    .side-menu:checked ~ .hamb .hamb-line::before {
+        transform: rotate(180deg);
+        top: 0;
+    }
+    
+    .side-menu:checked ~ .hamb .hamb-line::after {
+        transform: rotate(-180deg);
+        top: 0;
+    }
+    
+    /* Empurre o conteúdo para baixo ao abrir o menu */
+    .side-menu:checked ~ .principal-head {
+        transform: translateY(50%);
+    }
+    
+    .side-menu:checked ~ .banner-mobile {
+        margin-top: 50%; /* Defina a margem superior do banner quando o menu for aberto */
+    }
+    
     .banner-mobile{
         display: block;
     }
@@ -461,8 +565,6 @@ object-fit:cover;
     .icons{
         display: flex;
         justify-content: center;
-        padding: 2.5rem;
-
     }
     .icon{
         display: flex;
@@ -521,6 +623,11 @@ object-fit:cover;
         justify-content: space-around;
         padding: 1rem;
     }
+
+    .side-menu, .nav{
+        display: none;
+    }
+
     .banner-pc{
         display: block;
     }
@@ -838,6 +945,11 @@ object-fit:cover;
         justify-content: space-around;
         padding: 1rem;
     }
+
+    .side-menu, .nav{
+        display: none;
+    }
+
     .banner-pc{
         display: block;
     }
@@ -946,11 +1058,9 @@ object-fit:cover;
         font-weight: 500;
         font-family: "Poppins", sans-serif; 
     }   
-    
     .noticias{
         display: flex;
-        justify-content: space-evenly;   
-        height: 37rem; 
+        justify-content: space-evenly;    
     }
 
     .container {
@@ -988,11 +1098,7 @@ object-fit:cover;
     gap: .5rem;
     cursor: pointer;
     }
-    .card__body.expanded {
-        max-height: 5000px; /* Ajuste a altura máxima conforme necessário */
-        overflow: auto; /* Adicione rolagem se o conteúdo for maior que a altura máxima */
-      }
-      
+
     .tag {
     align-self: flex-start;
     padding: .25em .75em;
