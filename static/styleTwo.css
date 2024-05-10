@@ -61,12 +61,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5%;
 }
 
 .icons .icon-content {
     margin: 0 0.625rem;
     position: relative;
+    margin: 1rem;
+
 }
 
 .icons .icon-content .tooltip {
@@ -565,6 +566,8 @@ object-fit:cover;
     .icons{
         display: flex;
         justify-content: center;
+        padding: 5%;
+
     }
     .icon{
         display: flex;
@@ -682,7 +685,6 @@ object-fit:cover;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 5%;  
     }
 
     .nossas-lojas {
@@ -888,18 +890,17 @@ object-fit:cover;
         margin: 1rem;
     }
     .icons{
-        display: flex;
+        display: block;
         justify-content: center;
     }
     .icon{
         display: flex;
-        margin: 7.5%;
         list-style: none;
     }
     .icon svg{
-        height: 2rem;
-        
+        height: 2rem;        
     }
+
     .info-item h3{
         font-family: "Poppins", sans-serif;   
         font-weight: 500;
