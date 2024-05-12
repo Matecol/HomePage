@@ -517,6 +517,10 @@ object-fit:cover;
         font-size: 1.2rem;
         font-weight: 500;
     }
+    .site-porto a{
+        color: white;
+        text-decoration: none;
+    }
     .site-porto img{
         width: 2.25rem;
         margin: 1rem;
@@ -944,6 +948,10 @@ object-fit:cover;
         margin: 1em;
         font-size: 1.5rem;
     }
+    .site-porto a{
+        color: white;
+        text-decoration: none;
+    }
     .site-porto img{
         width: 5.25rem;
         margin: 1rem;
@@ -1264,6 +1272,10 @@ object-fit:cover;
     .site-porto p{
         margin: 1em;
         font-size: 1.5rem;
+    }
+    .site-porto a{
+        color: white;
+        text-decoration: none;
     }
     .site-porto img{
         width: 5.25rem;
