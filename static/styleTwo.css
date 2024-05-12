@@ -181,7 +181,7 @@ object-fit:cover;
         justify-content: space-around;
     }
     .principal-head-logo img{
-        max-width: 60%;
+        width: 60%;
     }
 
     .nav-bar {
@@ -417,7 +417,7 @@ object-fit:cover;
     gap: 2rem;
     }
 
-    img {
+    .card__header img {
     max-width: 100%;
     display: block;
     object-fit: cover;
