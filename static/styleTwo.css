@@ -525,11 +525,11 @@ object-fit:cover;
     }
 
     .img-porto{
-        width: 10rem;
         margin: 2.5%;
     }
     .img-porto img{
         border-radius: 10px;
+        width: 10rem;
     }
     
     .orcamento{
