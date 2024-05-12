@@ -178,12 +178,10 @@ object-fit:cover;
 
     .principal-head-logo{
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
     }
     .principal-head-logo img{
         max-width: 60%;
-        margin-top: 1rem;
-        margin-right: 4rem;
     }
 
     .nav-bar {
@@ -614,7 +612,7 @@ object-fit:cover;
 
 /*TABLET*//*TABLET*//*TABLET*//*TABLET*//*TABLET*//*TABLET*//*TABLET*//*TABLET*/
 
-@media(min-width:600px){
+@media(min-width:768px){
     .principal-head-logo img{
         display: flex;
         align-items: baseline;
@@ -1158,6 +1156,7 @@ object-fit:cover;
     .noticias{
         display: flex;
         justify-content: space-evenly;    
+        height: 37rem; 
     }
 
     .container {
