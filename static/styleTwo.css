@@ -507,37 +507,6 @@ object-fit:cover;
         flex-direction: column;
         align-items: center;
     }
-    .site-porto{
-        display: flex;
-        align-items: center;
-        justify-content: center ;
-        background-color: #459DCF;
-        border-radius: 15px;
-        margin-bottom: 2rem;
-    }
-    .site-porto p{
-        margin: 1em;
-        font-size: 1.2rem;
-        font-weight: 500;
-    }
-    .site-porto a{
-        color: white;
-        text-decoration: none;
-    }
-    .site-porto img{
-        width: 2.25rem;
-        margin: 1rem;
-        transform: rotate(90deg);
-        filter: invert(100%);
-    }
-
-    .img-porto{
-        margin: 2.5%;
-    }
-    .img-porto img{
-        border-radius: 10px;
-        width: 10rem;
-    }
     
     .orcamento{
         display: flex;
@@ -942,35 +911,7 @@ object-fit:cover;
        margin-bottom: 5rem;
        
     }
-    .site-porto{
-        display: flex;
-        align-items: center;
-        justify-content: center ;
-        background-color: #459DCF;
-        border-radius: 15px;
-
-    }
-    .site-porto p{
-        margin: 1em;
-        font-size: 1.5rem;
-    }
-    .site-porto a{
-        color: white;
-        text-decoration: none;
-    }
-    .site-porto img{
-        width: 5.25rem;
-        margin: 1rem;
-        filter: invert(100%);
-    }
-    .img-porto{
-        width: 15rem;
-        margin: 2.5%;
-    }
-    .img-porto img{
-        border-radius: 10px;
-    }
-
+    
     .orcamento{
         display: flex;
         align-items: center;
@@ -1270,30 +1211,6 @@ object-fit:cover;
        margin-top: 5rem;
        margin-bottom: 5rem;
        
-    }
-    .site-porto{
-        background-color: #459DCF;
-        border-radius: 15px;
-    }
-    .site-porto p{
-        margin: 1em;
-        font-size: 1.5rem;
-    }
-    .exclusivos a{
-        color: white;
-        text-decoration: none;
-    }
-    .site-porto img{
-        width: 5.25rem;
-        margin: 1rem;
-        filter: invert(100%);
-    }
-    .img-porto{
-        width: 15rem;
-        margin: 2.5%;
-    }
-    .img-porto img{
-        border-radius: 10px;
     }
 
     .orcamento{
