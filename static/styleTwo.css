@@ -318,6 +318,11 @@ object-fit:cover;
         height: 4rem;
     }
 
+    .saj{
+        width:353px;
+        height:198px;
+    }
+    
     
     .section-quem-somos {
         display: flex;
@@ -511,8 +516,7 @@ object-fit:cover;
     .orcamento{
         display: flex;
         align-items: center;
-        justify-content: center ;
-        margin: 5%;
+        justify-content: center;
         background-image: url('/images/nav.png'); 
         padding: 2px 1em 0 1em;
         border-radius: 20px;
@@ -520,7 +524,6 @@ object-fit:cover;
         font-weight: 500;
         margin-bottom: 5rem;
     }
-
     .orcamento img{
         width: 4.5rem;
     }
@@ -772,6 +775,10 @@ object-fit:cover;
         width: 85%;
     }
 
+    .saj{
+        width:580px;
+        height:326px;
+    }
     
     .loja-um{
         display:flex ;
@@ -1072,7 +1079,11 @@ object-fit:cover;
         width: 85%;
     }
 
-    
+    .saj{
+        width:580px;
+        height:327px;
+    }
+
     .loja-um{
         display:flex ;
         flex-flow: row wrap;
