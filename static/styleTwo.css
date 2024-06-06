@@ -153,9 +153,9 @@ icons .icon-content a:active {
     background-color: #0866ff;
 }
 
-.icons .icon-content a[data-social="youtube"] .filled,
-.icons .icon-content a[data-social="youtube"] ~ .tooltip {
-    background-color: #FF0000;
+.icons .icon-content a[data-social="email"] .filled,
+.icons .icon-content a[data-social="email"] ~ .tooltip {
+    background-color: #F2A60C;
 }
 footer{
     background-image: url('/images/nav.png');
